@@ -15,7 +15,6 @@ local function FindPlayer(String)
 	return nil
 end
 
-Kill.MouseButton1Click:Connect(function()
 	local Target = FindPlayer(Username.Text)
 	if Target and Target.Character then
 		local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
