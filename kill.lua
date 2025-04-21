@@ -1,5 +1,6 @@
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
+local Username = Value
 local function RemoveSpaces(String)
 	return String:gsub("%s+", "") or String
 end
