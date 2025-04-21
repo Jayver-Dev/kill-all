@@ -121,6 +121,3 @@ TextButton.MouseButton1Click:Connect(function()
 		notif("Invalid player")
 	end
 end)
- 
---//fsddfsdf
-notif("Loaded successfully! Created by scuba#0001", 5)
