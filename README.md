@@ -1,2 +1,2 @@
-# kill-all
-kill all script for StrongerHub
+# Fling
+Fling script for StrongerHub
