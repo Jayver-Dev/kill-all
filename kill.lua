@@ -15,7 +15,7 @@ local function FindPlayer(String)
 	return nil
 end
 
-	local Target = FindPlayer(Username.Text)
+	local Target = FindPlayer(Username)
 	if Target and Target.Character then
 		local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
 		local Torso = Character:FindFirstChild("Torso") or Character:FindFirstChild("UpperTorso")
